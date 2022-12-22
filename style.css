@@ -28,29 +28,30 @@ span, a {
 }
 
 .wrap {
-    height: 19rem;
-    width: auto;
-    border-radius: 0 0 50% 50%;
+    border-radius: 50%;
 
     display: flex;
     flex-direction: column;
     justify-content: end;
+
+    position: relative;
 }
 
 .wrap:hover {
     transform: scale(1.1);
     transition: ease-in-out 1s;
+    transition: ease-in 1s;
 }
 
 .people-background {
-    position: absolute;
-    height: 16rem;
+    height: 17rem;
     width: 13rem;
     border-radius: 50%;
     z-index: 0;
 }
 
 .people {
+    position: absolute;
     height: 17rem;
     width: 13rem;
     border-radius: 50%;
@@ -59,5 +60,5 @@ span, a {
 
 .people:hover {
     transition: ease-in-out 1s;
-    height: 19rem;
+    height: 20rem;
 }
